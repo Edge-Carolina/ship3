@@ -10,7 +10,7 @@ a greeting when executed.
 def register_user(username: str, master_password: str) -> None:
     """Register a new user with a master password.
 
-    In later ships you will hash and store the master password in a
+    You will hash and store the master password in a
     JSON file for authentication.  This stub does nothing.
 
     Args:
@@ -23,7 +23,7 @@ def register_user(username: str, master_password: str) -> None:
 def add_password(site: str, username: str, password: str) -> None:
     """Store a password for a given site.
 
-    Later you will encrypt the password and save it to a JSON file,
+    You will encrypt the password and save it to a JSON file,
     associating it with the site and username.  This stub does nothing.
 
     Args:
@@ -37,7 +37,7 @@ def add_password(site: str, username: str, password: str) -> None:
 def get_passwords() -> list[dict]:
     """Retrieve all stored passwords.
 
-    This will later read from an encrypted JSON file and return a list
+    This will read from an encrypted JSON file and return a list
     of dictionaries containing site, username and password.  For now
     it raises `NotImplementedError`.
 
@@ -51,7 +51,7 @@ def main() -> None:
     """Entry point for the password manager.
 
     When run directly, this prints a greeting.  You will replace this
-    with registration, login and menu functionality in later ships.
+    with registration, login and menu functionality in future ships.
     """
     print("Welcome to the Password Manager!")
 

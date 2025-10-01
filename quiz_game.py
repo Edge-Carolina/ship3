@@ -9,7 +9,7 @@ greeting when run.
 def add_flashcard(question: str, answer: str) -> None:
     """Add a new flashcard to the collection.
 
-    Later you will store flashcards in a JSON file or another data
+    You will store flashcards in a JSON file or another data
     structure.  This stub does nothing.
 
     Args:
@@ -22,7 +22,7 @@ def add_flashcard(question: str, answer: str) -> None:
 def list_flashcards() -> list[dict]:
     """Retrieve all flashcards from storage.
 
-    This function will load the stored flashcards and return them.  For Ship 3
+    This function will load the stored flashcards and return them.  You
     you should implement reading from `data/flashcards.json` and return a
     list of dictionaries with `question` and `answer` keys.  Right now it
     raises `NotImplementedError`.
@@ -36,7 +36,7 @@ def list_flashcards() -> list[dict]:
 def start_quiz() -> None:
     """Run the quiz loop.
 
-    This will later retrieve stored flashcards, prompt the user for
+    This will retrieve stored flashcards, prompt the user for
     answers and track their score.  For now it raises
     `NotImplementedError`.
     """
