@@ -1,5 +1,5 @@
 <!--
-This report will be completed during the final ship.  You do not need to edit it during Ship 3.
+This report will be completed during the final ship.  You do not need to edit it until then.
 -->
 
 ## Final Report
